@@ -3,7 +3,7 @@ Aims & Issues
 
 1) Self Space (Axisses should not be world's, they should be my car's) (DONE) ✓
 
-2) If there is no speed, car should not rotate towards y axis.
+2) If there is no speed, car should not rotate towards y axis. (DONE) ✓
 
 3) If player stop pushing gas, car should not stop immediately. (DONE) ✓
 
