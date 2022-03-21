@@ -1,8 +1,4 @@
-///--------------------------------------------------------------------------------------------
-/// Simple Car Damage system By Ciorbyn Studio https://www.youtube.com/c/CiorbynStudio
-/// Tutorial link: https://youtu.be/l04cw7EChpI
-/// -------------------------------------------------------------------------------------------
-/// 
+
 using UnityEngine;
 
 public class CarDamage : MonoBehaviour 
@@ -112,7 +108,7 @@ public class CarDamage : MonoBehaviour
                 Vector3 flatVertToCenterDir = transform.position - vertWorldPos;
                 flatVertToCenterDir.y = 0.0f;
                    
-                // 0.5 - 1 => 45° to 0°  / current vertice is nearer to exploPos than center of bounds
+                // 0.5 - 1 => 45ï¿½ to 0ï¿½  / current vertice is nearer to exploPos than center of bounds
                 if( originToMeDir.sqrMagnitude < sqrDemRange ) //dot > 0.8f )
                 {
                 	float dist = Mathf.Clamp01(originToMeDir.sqrMagnitude/sqrDemRange);
