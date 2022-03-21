@@ -19,4 +19,12 @@ Powerups Planning to add: Rocket, Minigun, Shield
 
 8) Models should be improved.
 
-9) 3 CAR WİTH Aİ CONTROLLED SHOULD BE ADDED
+9) 3 AI controllled car + 1 player's car will be added
+
+10) Race finishing positio& time should be saved
+
+11) If first car finish race, a cooldown will start. After cooldown finished race who can2t finish race will die
+
+12) Ai's skills should be imporved so much (Taking powerup, Aiming to other cars etc)
+
+13)
