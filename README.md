@@ -25,6 +25,6 @@ Powerups Planning to add: Rocket, Minigun, Shield
 
 11) If first car finish race, a cooldown will start. After cooldown finished, racer who didn't finish race, will die.
 
-12) AI's skills should be imporved so much (Taking powerup, Aiming to other cars etc)
+12) AI's skills should be improved so much (Taking powerup, Aiming to other cars etc)
 
 13)
