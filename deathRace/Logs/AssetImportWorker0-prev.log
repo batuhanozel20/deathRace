@@ -15,11 +15,11 @@ C:/Users/batuo/Documents/GitHub/deathRace/deathRace
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57279
+57763
 Successfully changed project path to: C:/Users/batuo/Documents/GitHub/deathRace/deathRace
 C:/Users/batuo/Documents/GitHub/deathRace/deathRace
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 37.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.24f1 (79c78de19888)
 [Subsystems] Discovering subsystems at path E:/UNITY/Unity Editor/2020.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'E:/UNITY/Unity Editor/2020.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UNITY/Unity Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/UNITY/Unity Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UNITY/Unity Editor/2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000945 seconds.
+Registered in 0.001118 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.554 seconds
+- Completed reload, in  0.559 seconds
 Domain Reload Profiling:
-	ReloadAssembly (554ms)
-		BeginReloadAssembly (49ms)
+	ReloadAssembly (560ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (433ms)
-			LoadAssemblies (48ms)
+		EndReloadAssembly (439ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (147ms)
+			SetupTypeCache (151ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (163ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (158ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (85ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (79ms)
 				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,35 +73,35 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004470 seconds.
+Registered in 0.004468 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.951 seconds
+- Completed reload, in  0.958 seconds
 Domain Reload Profiling:
-	ReloadAssembly (952ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (959ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (756ms)
-			LoadAssemblies (76ms)
+		EndReloadAssembly (774ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
+			SetupTypeCache (290ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (258ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (268ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (191ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1569 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1568 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.3 MB.
 System memory in use after: 84.4 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2020.
-Total: 3.692000 ms (FindLiveObjects: 0.244200 ms CreateObjectMapping: 0.067900 ms MarkObjects: 3.284400 ms  DeleteObjects: 0.093600 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2019.
+Total: 3.078300 ms (FindLiveObjects: 0.237500 ms CreateObjectMapping: 0.072900 ms MarkObjects: 2.664600 ms  DeleteObjects: 0.101500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,1240 +131,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/#Tools/Way (1).prefab
-  artifactKey: Guid(6c1172bd494c28e45b90a9f82cc665d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Way (1).prefab using Guid(6c1172bd494c28e45b90a9f82cc665d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15705ca4e92c0176fe0ac05bd878a0da') in 0.094354 seconds 
-  Import took 0.097001 seconds .
+  path: Assets/#Tools/cube.mat
+  artifactKey: Guid(d64cafd9aa0a4aa4caa644a174d84223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Tools/cube.mat using Guid(d64cafd9aa0a4aa4caa644a174d84223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7826ca4b200a450e3766a4b9c7b36951') in 0.100496 seconds 
+  Import took 0.103246 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/#Tools/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d113401259787c259c4c88d257f830') in 0.012060 seconds 
-  Import took 0.014976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.862096 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Materials/ParticleSmokeBlack.mat
-  artifactKey: Guid(fc626cffedc907848a7b47b87aa5e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Materials/ParticleSmokeBlack.mat using Guid(fc626cffedc907848a7b47b87aa5e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6eb3f2c4c71df702e0c44868efbef1') in 0.038683 seconds 
-  Import took 0.041725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.813452 seconds.
-  path: Assets/#Tools
-  artifactKey: Guid(2d7b1b42626969f4699bcef88bc76aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools using Guid(2d7b1b42626969f4699bcef88bc76aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf991353145fdac8f54f3a9244bfd8d') in 0.008237 seconds 
-  Import took 0.011303 seconds .
+  Time since last request: 0.000286 seconds.
+  path: Assets/#Tools/color.mat
+  artifactKey: Guid(a38ebdab788d9da41a3792926915edbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Tools/color.mat using Guid(a38ebdab788d9da41a3792926915edbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbcb1251055ea414a858700aba37568') in 0.012519 seconds 
+  Import took 0.015128 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004880 seconds.
+Registered in 0.004058 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.849 seconds
+- Completed reload, in  0.853 seconds
 Domain Reload Profiling:
-	ReloadAssembly (849ms)
-		BeginReloadAssembly (94ms)
+	ReloadAssembly (854ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (700ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (699ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (264ms)
+			SetupTypeCache (254ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (238ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (247ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.9 MB.
-System memory in use after: 87.0 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2063.
-Total: 2.868500 ms (FindLiveObjects: 0.200000 ms CreateObjectMapping: 0.039900 ms MarkObjects: 2.600600 ms  DeleteObjects: 0.026300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 10.861902 seconds.
-  path: Assets/#Tools/color.mat
-  artifactKey: Guid(a38ebdab788d9da41a3792926915edbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/color.mat using Guid(a38ebdab788d9da41a3792926915edbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30d4db67808540471588bded54a40d5') in 0.067799 seconds 
-  Import took 0.070603 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004953 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.849 seconds
-Domain Reload Profiling:
-	ReloadAssembly (850ms)
-		BeginReloadAssembly (91ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (703ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (237ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.9 MB.
-System memory in use after: 87.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2066.
-Total: 3.178500 ms (FindLiveObjects: 0.249100 ms CreateObjectMapping: 0.066400 ms MarkObjects: 2.838500 ms  DeleteObjects: 0.022700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 313.431623 seconds.
-  path: Assets/#Tools/cube.mat
-  artifactKey: Guid(d64cafd9aa0a4aa4caa644a174d84223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/cube.mat using Guid(d64cafd9aa0a4aa4caa644a174d84223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bd47baa2ec47b31809863d40c251c7') in 0.062339 seconds 
-  Import took 0.064957 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004170 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.863 seconds
-Domain Reload Profiling:
-	ReloadAssembly (864ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (711ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (242ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.9 MB.
-System memory in use after: 87.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2069.
-Total: 3.650600 ms (FindLiveObjects: 0.258000 ms CreateObjectMapping: 0.044800 ms MarkObjects: 3.326000 ms  DeleteObjects: 0.020100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 553.318887 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/SportCar20.FBX
-  artifactKey: Guid(f119de429d72e0b4daed64783cf54fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/SportCar20.FBX using Guid(f119de429d72e0b4daed64783cf54fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c419c88c7b611237208f08de155e091f') in 0.945398 seconds 
-  Import took 0.953588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 725.968529 seconds.
-  path: Assets/#Tools/ExampleAssets/Models/Workbench.fbx
-  artifactKey: Guid(a09837bc152a9b9459581f48bee12074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Models/Workbench.fbx using Guid(a09837bc152a9b9459581f48bee12074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856bc7af17ba15245b3594750415d1e4') in 0.115984 seconds 
-  Import took 0.119049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/BrakeDiscGlow.mat
-  artifactKey: Guid(ffb39343dc3158743bd14c97c15642f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/BrakeDiscGlow.mat using Guid(ffb39343dc3158743bd14c97c15642f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06a8b6f060e5faf91191a4e8247e6fc') in 0.013628 seconds 
-  Import took 0.016215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/#Tools/ExampleAssets/Materials/ConstructionLight_Mat.mat
-  artifactKey: Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Materials/ConstructionLight_Mat.mat using Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814895265b135481ecab7606be1fe8cc') in 0.181085 seconds 
-  Import took 0.184171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_3.mat
-  artifactKey: Guid(8e204c4cedb3c87479171e0f8140bffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_3.mat using Guid(8e204c4cedb3c87479171e0f8140bffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85ce2895a06aee67142039d98ab111b') in 0.090244 seconds 
-  Import took 0.092738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/Billboard.mat
-  artifactKey: Guid(8c1755df5f552e843b9f8485f72e71f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/Billboard.mat using Guid(8c1755df5f552e843b9f8485f72e71f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1197e71756a4566dd11cc5c29ce6ccf1') in 0.250755 seconds 
-  Import took 0.253489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_K.mat
-  artifactKey: Guid(b25146dfc9aeed84696a9e2e6c3ddf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_K.mat using Guid(b25146dfc9aeed84696a9e2e6c3ddf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c306b8ddf4af633cc68de7e27bda398') in 0.014792 seconds 
-  Import took 0.017357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Branches_0.mat
-  artifactKey: Guid(1092dd21af768cb499771bf88709dbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Branches_0.mat using Guid(1092dd21af768cb499771bf88709dbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d83860f492c210f86a41f5efe2b0c82') in 0.360971 seconds 
-  Import took 0.363393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/#Tools/ExampleAssets/Models/ConstructionLight.fbx
-  artifactKey: Guid(ed389028d40603840b8d2a0a537b9da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Models/ConstructionLight.fbx using Guid(ed389028d40603840b8d2a0a537b9da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5a5ce6faeb5a190a74201a4c136b9e') in 0.058444 seconds 
-  Import took 0.061663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_1.mat
-  artifactKey: Guid(639aa87a96d586c4e84838574ce20ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_1.mat using Guid(639aa87a96d586c4e84838574ce20ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c455710b9aca4e4d948a1a911633e98') in 0.360486 seconds 
-  Import took 0.362950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_E.mat
-  artifactKey: Guid(86e38176506254945b5a680aa8263f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_E.mat using Guid(86e38176506254945b5a680aa8263f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b288f6b492b319a3a29ec84c862080a4') in 0.014508 seconds 
-  Import took 0.017162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Branches_0.mat
-  artifactKey: Guid(46160e8fc1456bc4d9fb3de64ba88c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Branches_0.mat using Guid(46160e8fc1456bc4d9fb3de64ba88c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4462c4038c91142030b979f2b5346e') in 0.014979 seconds 
-  Import took 0.017851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_9.mat
-  artifactKey: Guid(1ab5291729bab5841b3bdf4049baee7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_9.mat using Guid(1ab5291729bab5841b3bdf4049baee7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72d2091f42e66c148e26643913698f5') in 0.014212 seconds 
-  Import took 0.016802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_7.mat
-  artifactKey: Guid(528dcd708f568184aa3ec5ac978ad713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_7.mat using Guid(528dcd708f568184aa3ec5ac978ad713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329c02d1ca7ad96ce07b04c1c2bc9886') in 0.013833 seconds 
-  Import took 0.016600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Branches_0.mat
-  artifactKey: Guid(5c6bda52f548c164381f24c22067e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Branches_0.mat using Guid(5c6bda52f548c164381f24c22067e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b6c26197bb26fe0d1b3cabdfa536ca') in 0.014645 seconds 
-  Import took 0.018279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/BodyAlbedo.mat
-  artifactKey: Guid(6e3df92b52926d449842ad9475ee73a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/BodyAlbedo.mat using Guid(6e3df92b52926d449842ad9475ee73a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3503bb1cb0ba0e1ac5f9ea0acd2ed17') in 0.033092 seconds 
-  Import took 0.036041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_0.mat
-  artifactKey: Guid(4be5b19d42487c24f830c4ee36849a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_0.mat using Guid(4be5b19d42487c24f830c4ee36849a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ede4b00524a97f73df27fc355c73831') in 0.013739 seconds 
-  Import took 0.017029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_D.mat
-  artifactKey: Guid(f9e69dada256acc4aaa9e6ce3745d4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_D.mat using Guid(f9e69dada256acc4aaa9e6ce3745d4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7924e3466674f0ca4c4db362739fe0b') in 0.014772 seconds 
-  Import took 0.017503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_0.mat
-  artifactKey: Guid(54ee8e39b634b6d45aae528b6b24e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_0.mat using Guid(54ee8e39b634b6d45aae528b6b24e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c702bff75a9256a19ef06b7976d14cf2') in 0.014450 seconds 
-  Import took 0.016948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/#Materials/Color 4.mat
-  artifactKey: Guid(bce7c9f4f3876de428a32602eb0fcb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Materials/Color 4.mat using Guid(bce7c9f4f3876de428a32602eb0fcb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de36c1c6876b4fe9241db40d49183b31') in 0.013995 seconds 
-  Import took 0.017086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_1.mat
-  artifactKey: Guid(e621ee108fde15148a5e4b4ab67667b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_1.mat using Guid(e621ee108fde15148a5e4b4ab67667b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629f331605420e1cc16802981911fc2e') in 0.013668 seconds 
-  Import took 0.016894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Branches_0.mat
-  artifactKey: Guid(cd764ab8662bea6468202df8741bcfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Branches_0.mat using Guid(cd764ab8662bea6468202df8741bcfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd471df536167b2fefc5221c7fd65e27') in 0.014077 seconds 
-  Import took 0.017110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_1.mat
-  artifactKey: Guid(97ad51f0a4aed0a4289f5462ce6dc18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_1.mat using Guid(97ad51f0a4aed0a4289f5462ce6dc18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79769637b9adeb89d21eda7e115e2dd') in 0.013855 seconds 
-  Import took 0.016508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/#Tools/ExampleAssets/Models/ConstructionLight_Low.fbx
-  artifactKey: Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Models/ConstructionLight_Low.fbx using Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc28be9a871e8f36a07b5b77766279e3') in 0.055781 seconds 
-  Import took 0.058475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_-.mat
-  artifactKey: Guid(bb854371ee2e3fa4fb3dc0eed9c76a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_-.mat using Guid(bb854371ee2e3fa4fb3dc0eed9c76a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd730c0733a13a765d36b5cf7b161cc2a') in 0.014985 seconds 
-  Import took 0.017585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/#Tools/ExampleAssets/Models/SafetyGoggles.fbx
-  artifactKey: Guid(36ed72df9b6f5de45819a1f02a1f034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Models/SafetyGoggles.fbx using Guid(36ed72df9b6f5de45819a1f02a1f034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd950584de0b505a98da24da8ccf805a') in 0.240747 seconds 
-  Import took 0.243455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_0.mat
-  artifactKey: Guid(39baceec69bb1ee4fb4194d50e1a6d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_0.mat using Guid(39baceec69bb1ee4fb4194d50e1a6d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45f431cfe11bb16a634c9aee3536f22') in 0.014459 seconds 
-  Import took 0.017169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/#Materials/Color 1.mat
-  artifactKey: Guid(a20b32c1e6cb00a438e132366efc5a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Materials/Color 1.mat using Guid(a20b32c1e6cb00a438e132366efc5a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efc5ecd73a2ff10c8ec8e78cba69165') in 0.171885 seconds 
-  Import took 0.174300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_F.mat
-  artifactKey: Guid(ac7b1d966e243384d88de65c7061ed6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_F.mat using Guid(ac7b1d966e243384d88de65c7061ed6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695857cb6ce0362e525563572fa160ad') in 0.014604 seconds 
-  Import took 0.017149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_2.mat
-  artifactKey: Guid(2ee8a5e330cbb894f9a23c77716e8e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_2.mat using Guid(2ee8a5e330cbb894f9a23c77716e8e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca4ad271d3bf8a517695406a7876683') in 0.014887 seconds 
-  Import took 0.017652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_L.mat
-  artifactKey: Guid(44fc7ec907a055e4a90fa20946699f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_L.mat using Guid(44fc7ec907a055e4a90fa20946699f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbb67f6283da790933519ba8ce66e71') in 0.013893 seconds 
-  Import took 0.016389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_0.mat
-  artifactKey: Guid(dffa6c1325fd30b41819f03be58b91e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_0.mat using Guid(dffa6c1325fd30b41819f03be58b91e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58db0bf18c7ba7b4ef15741ac21ad027') in 0.014829 seconds 
-  Import took 0.018534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/#Tools/ExampleAssets/Materials/DryWall_Mat.mat
-  artifactKey: Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Materials/DryWall_Mat.mat using Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9d1608ab50219785ff7d867e0fa838') in 0.147218 seconds 
-  Import took 0.149711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_6.mat
-  artifactKey: Guid(d160598b65d355e4c8dbde0974fcc527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_6.mat using Guid(d160598b65d355e4c8dbde0974fcc527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b917e61786bd43420d05b03013cc103f') in 0.014930 seconds 
-  Import took 0.017962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/Billboard.mat
-  artifactKey: Guid(6e680dda9368db5418f19388474277a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/Billboard.mat using Guid(6e680dda9368db5418f19388474277a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2c4aacc732b0e4347866cbc2b25a3f') in 0.010835 seconds 
-  Import took 0.013430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_4.mat
-  artifactKey: Guid(85ba04a0355970941a75193ed9334dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_4.mat using Guid(85ba04a0355970941a75193ed9334dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd6076653c92317ae800d94afa00940') in 0.014021 seconds 
-  Import took 0.016513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_0.mat
-  artifactKey: Guid(89bc4a04979629642988a379a429608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD0/Branches_0.mat using Guid(89bc4a04979629642988a379a429608a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1197282d4f0848c289f934b2a35371f9') in 0.013941 seconds 
-  Import took 0.016949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_A.mat
-  artifactKey: Guid(0c570976a82d0ed4ca351b6310f8c590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_A.mat using Guid(0c570976a82d0ed4ca351b6310f8c590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2578c7cec88a42103e7062b5bebea5') in 0.014549 seconds 
-  Import took 0.017142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_G.mat
-  artifactKey: Guid(ae209674c9a4bc9468eafa6ac62e75c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_G.mat using Guid(ae209674c9a4bc9468eafa6ac62e75c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2d4b5e1852e12ad9c80aa5d99172b9') in 0.014068 seconds 
-  Import took 0.016537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_M.mat
-  artifactKey: Guid(d97331bb562e1b14badc51ad36f2e55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_M.mat using Guid(d97331bb562e1b14badc51ad36f2e55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1782063aece01dd1e6abe367f2d2372e') in 0.013946 seconds 
-  Import took 0.017730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_1.mat
-  artifactKey: Guid(fa40ba727cdc90245aac11f0ff5ead8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_1.mat using Guid(fa40ba727cdc90245aac11f0ff5ead8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18933bea8be805ffe592683edb7b8f06') in 0.014168 seconds 
-  Import took 0.016810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_H.mat
-  artifactKey: Guid(fcac1c483fda6f94ca7c85597861ed18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_H.mat using Guid(fcac1c483fda6f94ca7c85597861ed18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50b485962579685cf88074da74ad87c') in 0.013868 seconds 
-  Import took 0.016547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_I.mat
-  artifactKey: Guid(d355517730750bb4c9dc9332a941d2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_I.mat using Guid(d355517730750bb4c9dc9332a941d2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fe8a79653d0451a45c74e78e26ab78') in 0.014541 seconds 
-  Import took 0.017703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/BlackWindows.mat
-  artifactKey: Guid(f765cc479be827b43bfe884cbc37e03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Meshes/Materials/BlackWindows.mat using Guid(f765cc479be827b43bfe884cbc37e03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03721ecb36ab0deaa9ad28add8c326e5') in 0.013158 seconds 
-  Import took 0.015709 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000495 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_1.mat
-  artifactKey: Guid(57df284b8a7c87b4894ac5f9c86e0be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_1.mat using Guid(57df284b8a7c87b4894ac5f9c86e0be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069cf5596e87200c73afb62045229a30') in 0.014413 seconds 
-  Import took 0.017340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/#Materials/Color 2.mat
-  artifactKey: Guid(3068ccbf24bdcec448328312a6d78fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Materials/Color 2.mat using Guid(3068ccbf24bdcec448328312a6d78fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6130276735e6ea5e7f544dc647f0e031') in 0.036322 seconds 
-  Import took 0.039044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_0.mat
-  artifactKey: Guid(d4880c932a8e12b48a3039233e9634a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_0.mat using Guid(d4880c932a8e12b48a3039233e9634a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacdc4bd62334ba2ac1d32f020e2dfb2') in 0.013448 seconds 
-  Import took 0.016911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_C.mat
-  artifactKey: Guid(f05fda16e2ca84a44a63a374ba649edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_C.mat using Guid(f05fda16e2ca84a44a63a374ba649edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffa3fada8a8db46aaed89c3e7c794a4') in 0.014459 seconds 
-  Import took 0.016967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/Billboard.mat
-  artifactKey: Guid(e625f56663597ef4899f86b588b4d506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/Billboard.mat using Guid(e625f56663597ef4899f86b588b4d506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25038592aac97b4fa781cb0cc8dd2a4f') in 0.013026 seconds 
-  Import took 0.015754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_1.mat
-  artifactKey: Guid(485b5b6c9be8bc84fa20faf56e94b536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_1.mat using Guid(485b5b6c9be8bc84fa20faf56e94b536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0f0b7bdd5d74408b310727585fb1a2') in 0.014907 seconds 
-  Import took 0.017439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/#Materials/Color 3.mat
-  artifactKey: Guid(c86b585e27b8d4a4393ba6791ad43c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Materials/Color 3.mat using Guid(c86b585e27b8d4a4393ba6791ad43c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805488c6cab74fbfe3ddf5c6282e3870') in 0.013087 seconds 
-  Import took 0.016020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/Billboard.mat
-  artifactKey: Guid(d68104aea3d1d084385a1acc7c896247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/Billboard.mat using Guid(d68104aea3d1d084385a1acc7c896247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdb1f4249b420be352d6006355724d6') in 0.013112 seconds 
-  Import took 0.015706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_0.mat
-  artifactKey: Guid(b0d5705176a0d36419d034e2ea46491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_0.mat using Guid(b0d5705176a0d36419d034e2ea46491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b86ad09a7d142b2a6b46b99b22e9bb') in 0.013984 seconds 
-  Import took 0.016827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Branches_0.mat
-  artifactKey: Guid(bfc1dabf45016eb46b99df1a78054924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Branches_0.mat using Guid(bfc1dabf45016eb46b99df1a78054924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfd927b5042f02b312c0a961fcd2698') in 0.013838 seconds 
-  Import took 0.016723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_1.mat
-  artifactKey: Guid(fecc9f713338e4943a8c38775af8c046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_1.mat using Guid(fecc9f713338e4943a8c38775af8c046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001e9fa4bb96fe5ee5f0bf2b534fcab1') in 0.014607 seconds 
-  Import took 0.017188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/#Tools/ExampleAssets/Models/Workshop_Set.fbx
-  artifactKey: Guid(27d05cd1825374599a2f9ce04c649102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Models/Workshop_Set.fbx using Guid(27d05cd1825374599a2f9ce04c649102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07af95b6f903c64399720ee597582d5') in 0.098642 seconds 
-  Import took 0.101452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_0.mat
-  artifactKey: Guid(a4897b9f9aaf6e94d9a3a6ef8793bb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_0.mat using Guid(a4897b9f9aaf6e94d9a3a6ef8793bb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffec20995fe6fdc334fe2419a1b7415') in 0.014718 seconds 
-  Import took 0.017463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/#Tools/ExampleAssets/Materials/DryWallPainted_Mat.mat
-  artifactKey: Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Materials/DryWallPainted_Mat.mat using Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e910a097a57a77771319a348fe5d80') in 0.014797 seconds 
-  Import took 0.017930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_5.mat
-  artifactKey: Guid(98e53d161cf0c1746b9b445b5ccf04a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_5.mat using Guid(98e53d161cf0c1746b9b445b5ccf04a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa866a3dce0a362bb9842d1b39a64e9') in 0.014845 seconds 
-  Import took 0.017676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/#Tools/ExampleAssets/Models/Workbench_Low.fbx
-  artifactKey: Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Models/Workbench_Low.fbx using Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefe09accc1d161533cb91f4030eab1e') in 0.099403 seconds 
-  Import took 0.102025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_1.mat
-  artifactKey: Guid(fdb77c3917027234db7a7792019eda2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_1.mat using Guid(fdb77c3917027234db7a7792019eda2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760de39cc3577640ddda3371f253f68a') in 0.014687 seconds 
-  Import took 0.017393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_J.mat
-  artifactKey: Guid(5fa2aa579abd9b84bb1e89c9763b2182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_J.mat using Guid(5fa2aa579abd9b84bb1e89c9763b2182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0003d0f196f67c7d55fd02497b6f84d3') in 0.014124 seconds 
-  Import took 0.017285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_8.mat
-  artifactKey: Guid(06ae0c5992fcca54195466ed3249e1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_8.mat using Guid(06ae0c5992fcca54195466ed3249e1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e83413ce7ed32dc53f0fe583f727cf') in 0.014448 seconds 
-  Import took 0.017018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_B.mat
-  artifactKey: Guid(1597301e6e058794fbee2ca43e9defd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_B.mat using Guid(1597301e6e058794fbee2ca43e9defd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a8e89309dacbabaf92a852fe5bc46b') in 0.014174 seconds 
-  Import took 0.016983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.022101 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop.spm
-  artifactKey: Guid(c91c1eb85782d5748ace27eb4d7415bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop.spm using Guid(c91c1eb85782d5748ace27eb4d7415bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d807bdb182bccb9624e58c9859abdd9') in 0.931635 seconds 
-  Import took 0.935196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/#Tools/CarCamera/CamParent.prefab
-  artifactKey: Guid(1a9dca02feba5a740a65aa80ccaa457e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/CarCamera/CamParent.prefab using Guid(1a9dca02feba5a740a65aa80ccaa457e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1223273a2a02af925ff35d598c7d94fd') in 0.009452 seconds 
-  Import took 0.012162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/#Tools/ExampleAssets/Prefabs/Props.prefab
-  artifactKey: Guid(96fe51ca2266f2549bb3b93ac7b9eb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Prefabs/Props.prefab using Guid(96fe51ca2266f2549bb3b93ac7b9eb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e138408856b07b5f2d664ef08e85fe') in 0.262668 seconds 
-  Import took 0.266374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/FlareMobile.prefab
-  artifactKey: Guid(ccbcfc705a39717429590a9f247ec30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/FlareMobile.prefab using Guid(ccbcfc705a39717429590a9f247ec30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0332d6901e3f69c1dd39dd035d4279f') in 0.048247 seconds 
-  Import took 0.051176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/#Tools/Standard Assets/Vehicles/Car/Models/SkyCar.fbx
-  artifactKey: Guid(e6fec471c20b9d148b1f87910e67bea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Vehicles/Car/Models/SkyCar.fbx using Guid(e6fec471c20b9d148b1f87910e67bea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cbf23ce04af4c8689f5a1d04b20c31') in 0.549869 seconds 
-  Import took 0.552761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/Explosion.prefab
-  artifactKey: Guid(031d08f52af1daa4f929b85221519426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/Explosion.prefab using Guid(031d08f52af1daa4f929b85221519426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd344cba70adaea4ce2d44c37edae64e8') in 0.040601 seconds 
-  Import took 0.044173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/#Tools/Standard Assets/Vehicles/Car/Prefabs/Car.prefab
-  artifactKey: Guid(0e7ee4df08df88c4880f43398f9ad2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Vehicles/Car/Prefabs/Car.prefab using Guid(0e7ee4df08df88c4880f43398f9ad2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210fee367e899fe403d041d080de4eed') in 0.047342 seconds 
-  Import took 0.050482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/TyreBurnoutSmoke.prefab
-  artifactKey: Guid(98c58c8dd46640c49bb5f557afafea7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/TyreBurnoutSmoke.prefab using Guid(98c58c8dd46640c49bb5f557afafea7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478fe07859dd5f8a10c93f420841af9f') in 0.014235 seconds 
-  Import took 0.017156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop.spm
-  artifactKey: Guid(d027af1092f6b434090f040565e7e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop.spm using Guid(d027af1092f6b434090f040565e7e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec734ac36ea0dd2f7e8a48248932a8d2') in 0.076408 seconds 
-  Import took 0.079913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab
-  artifactKey: Guid(2c32987c2bc01844a94adfb917dd677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab using Guid(2c32987c2bc01844a94adfb917dd677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8372bf5bfdd00218d2f9205cb6e10a8') in 0.020551 seconds 
-  Import took 0.024016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/ExplosionMobile.prefab
-  artifactKey: Guid(645413a00f7bd0242bbd6d0e5eb6f439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/ExplosionMobile.prefab using Guid(645413a00f7bd0242bbd6d0e5eb6f439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9399a6404f890d08d55fe6bcfc82cdc6') in 0.038678 seconds 
-  Import took 0.041866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/Flare.prefab
-  artifactKey: Guid(0438351a6e6422d43a09930e9be00ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/Flare.prefab using Guid(0438351a6e6422d43a09930e9be00ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2963e2ee926df1d58a6edeae407cbd43') in 0.018987 seconds 
-  Import took 0.022186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/#Tools/Standard Assets/Vehicles/Car/Prefabs/CarWaypointBased.prefab
-  artifactKey: Guid(0fb4610dba67fc24cb2a6674fb155fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Vehicles/Car/Prefabs/CarWaypointBased.prefab using Guid(0fb4610dba67fc24cb2a6674fb155fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097785295496db32a35bd84cf0df6492') in 0.034594 seconds 
-  Import took 0.037965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/HoseMobile.prefab
-  artifactKey: Guid(4dbf077105ba797428d118320f2a10aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/HoseMobile.prefab using Guid(4dbf077105ba797428d118320f2a10aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badcd40779aa5f83d0239e5d4dc9c386') in 0.018007 seconds 
-  Import took 0.021321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/#Tools/ExampleAssets/Models/SafetyHat.fbx
-  artifactKey: Guid(fad0fd73d59bbee4697a178efb773334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Models/SafetyHat.fbx using Guid(fad0fd73d59bbee4697a178efb773334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa2797bac02b1b483273fea434cc7b5') in 0.026687 seconds 
-  Import took 0.029405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab
-  artifactKey: Guid(1f7aa4d40edff6e48b549003cad031e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab using Guid(1f7aa4d40edff6e48b549003cad031e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe1ae446f819181944b3697743b1502') in 0.035470 seconds 
-  Import took 0.038178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/Fireworks.prefab
-  artifactKey: Guid(180149b1a35449044a27b451e816d2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/Fireworks.prefab using Guid(180149b1a35449044a27b451e816d2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6585500d91519174913bfca590006ce8') in 0.017998 seconds 
-  Import took 0.022124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile.spm
-  artifactKey: Guid(6aab193b7693b5e4c9741f1917d2987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile.spm using Guid(6aab193b7693b5e4c9741f1917d2987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc9576b81fa898fd011a076b2b7fdee') in 0.070445 seconds 
-  Import took 0.073451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/#Tools/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab
-  artifactKey: Guid(9529ecc3d479da5499993355e6c2cb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab using Guid(9529ecc3d479da5499993355e6c2cb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562486ce9aebf208d5dee849c47aa8e7') in 0.026085 seconds 
-  Import took 0.028962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/SteamMobile.prefab
-  artifactKey: Guid(b6fecef6c92b67147b638a07ef91195b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/SteamMobile.prefab using Guid(b6fecef6c92b67147b638a07ef91195b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49458444f5bbcbcfa14f0d6d4e5b3399') in 0.015264 seconds 
-  Import took 0.018149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/#Tools/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab
-  artifactKey: Guid(999388b68bb99b44099461bfbed94358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab using Guid(999388b68bb99b44099461bfbed94358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194a9a596faa5a2283523fa711a3565c') in 0.009088 seconds 
-  Import took 0.012265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/#Tools/Standard Assets/Utility/Prefabs/FramerateCounter.prefab
-  artifactKey: Guid(81154777d5417884981849c5243f6c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Utility/Prefabs/FramerateCounter.prefab using Guid(81154777d5417884981849c5243f6c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043216dc5bd88b89c75483db1c77b550') in 0.011350 seconds 
-  Import took 0.014280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/#Tools/ExampleAssets/Models/Stud.fbx
-  artifactKey: Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Models/Stud.fbx using Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73fee527aee14da7d8e0a021307e388') in 0.038245 seconds 
-  Import took 0.041488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/Steam.prefab
-  artifactKey: Guid(32aafb358d61bd14b9b27ed0871fe43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/Steam.prefab using Guid(32aafb358d61bd14b9b27ed0871fe43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f203b2bbd3bcca4ad6d13f02dfffe46c') in 0.014482 seconds 
-  Import took 0.017247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/#Tools/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab
-  artifactKey: Guid(174090ae7f9eff84abe76f0ff062efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab using Guid(174090ae7f9eff84abe76f0ff062efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d34ea00b6bbbf256de7030835ca146') in 0.016538 seconds 
-  Import took 0.019649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/FireComplex.prefab
-  artifactKey: Guid(bf495eacf58e31146ab012aa89ac68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/FireComplex.prefab using Guid(bf495eacf58e31146ab012aa89ac68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8821800ee1fb2e27b9a7fe8048e977c') in 0.053570 seconds 
-  Import took 0.056973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/#Tools/ExampleAssets/Models/MagneticLevel.fbx
-  artifactKey: Guid(691c8b080d8f55744a58f5e86b96915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Models/MagneticLevel.fbx using Guid(691c8b080d8f55744a58f5e86b96915d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65c1de8355c462ae238d3d3cff975db') in 0.044326 seconds 
-  Import took 0.047147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/#Tools/ExampleAssets/Models/Jigsaw.fbx
-  artifactKey: Guid(b2de02dc472471a40816cf840b819ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Models/Jigsaw.fbx using Guid(b2de02dc472471a40816cf840b819ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd21b6e1d22725c1575352c4b9ad3ad') in 0.034569 seconds 
-  Import took 0.037244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/#Tools/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab
-  artifactKey: Guid(3369231b1ed7ad34e84d9240a571db81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab using Guid(3369231b1ed7ad34e84d9240a571db81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa6cebd548ff3da53b04b8820d2610e') in 0.017903 seconds 
-  Import took 0.021096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/#Tools/ExampleAssets/Models/PaintBucket.fbx
-  artifactKey: Guid(cd0713beb0b2adf44a000adc6215c9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Models/PaintBucket.fbx using Guid(cd0713beb0b2adf44a000adc6215c9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34182cc54935b6c203caa0bef0a4aafe') in 0.068079 seconds 
-  Import took 0.071085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/Smoke.prefab
-  artifactKey: Guid(921a3ff88856fe04ebc86b196fd8cc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/Smoke.prefab using Guid(921a3ff88856fe04ebc86b196fd8cc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df18e4abb1eba033ebb9134e09b5c7ca') in 0.014894 seconds 
-  Import took 0.017830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab
-  artifactKey: Guid(d8c41be67f41aa545ae053b0b927f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab using Guid(d8c41be67f41aa545ae053b0b927f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23bbb667329dbf69d8bd0ab72386a43') in 0.016885 seconds 
-  Import took 0.020463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Static_USA.prefab
-  artifactKey: Guid(37ec82ab8eba1384baadcaa1d88b7f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Static_USA.prefab using Guid(37ec82ab8eba1384baadcaa1d88b7f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f5fefb04cc139e6605a34f903ba524') in 0.077443 seconds 
-  Import took 0.084551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/#Tools/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab
-  artifactKey: Guid(2169821f0567671499a5c10104c69c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab using Guid(2169821f0567671499a5c10104c69c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4a8ff9aa8756a4ac6979e2ab0c5554') in 0.012164 seconds 
-  Import took 0.015136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/#Tools/ExampleAssets/Models/Brush.fbx
-  artifactKey: Guid(fa766811e30e19c40a7556c1fad9579c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Models/Brush.fbx using Guid(fa766811e30e19c40a7556c1fad9579c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadde0f1094623657fe780a1b2cdb3b6') in 0.027164 seconds 
-  Import took 0.029932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/#Tools/Standard Assets/Vehicles/Car/Prefabs/SkidTrail.prefab
-  artifactKey: Guid(4b6aa99de5d21424eab6ae279f31475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Vehicles/Car/Prefabs/SkidTrail.prefab using Guid(4b6aa99de5d21424eab6ae279f31475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1caa635f16fb7b0dce327bd37bc4de') in 0.012430 seconds 
-  Import took 0.015074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Driver_EU.prefab
-  artifactKey: Guid(6f39632663e189a43ba1dba6a3232eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Driver_EU.prefab using Guid(6f39632663e189a43ba1dba6a3232eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fdf13d3a3567d17b0683c94098f8c7') in 0.083931 seconds 
-  Import took 0.091660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/#Tools/ExampleAssets/Models/Hammer.fbx
-  artifactKey: Guid(7c32e2dd2b407a945a0462352383ce32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Models/Hammer.fbx using Guid(7c32e2dd2b407a945a0462352383ce32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65333d9926ccdfc41ede85bf4da8769a') in 0.024675 seconds 
-  Import took 0.028064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/#Tools/ExampleAssets/Prefabs/Workshop Set.prefab
-  artifactKey: Guid(ca2a18daa91a3b04ca17d8b3c0c192d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/ExampleAssets/Prefabs/Workshop Set.prefab using Guid(ca2a18daa91a3b04ca17d8b3c0c192d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916128fa2bd01ee6843b0f7e564e6d5d') in 0.027267 seconds 
-  Import took 0.030133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Driver_USA.prefab
-  artifactKey: Guid(c3c0d86c0e789a244b1295717c5bc208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Driver_USA.prefab using Guid(c3c0d86c0e789a244b1295717c5bc208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89307c19fb08940a2754b37c1df8ed3d') in 0.071126 seconds 
-  Import took 0.078351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab
-  artifactKey: Guid(b99a0a5998b2736429fd2a2fd1d01c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab using Guid(b99a0a5998b2736429fd2a2fd1d01c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4011abe49cb0b5e320bc8eb3272726dc') in 0.016778 seconds 
-  Import took 0.019847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/DustStormMobile.prefab
-  artifactKey: Guid(ed1c797ec3736704db03a0d64d010e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/DustStormMobile.prefab using Guid(ed1c797ec3736704db03a0d64d010e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66edeeb059c40501d9c268c9763777e6') in 0.014669 seconds 
-  Import took 0.018180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/Hose.prefab
-  artifactKey: Guid(fae5d333f43a55744ab0c44fecefdcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/ParticleSystems/Prefabs/Hose.prefab using Guid(fae5d333f43a55744ab0c44fecefdcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1ca53f86620306c6799eb6f882bd6e') in 0.015541 seconds 
-  Import took 0.018944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/#Tools/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop.spm
-  artifactKey: Guid(469edab27ab6d004d84af2c4a851bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Tools/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop.spm using Guid(469edab27ab6d004d84af2c4a851bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c825af77b00d2993cd6c61cb3c6c1378') in 0.077493 seconds 
-  Import took 0.080564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Static_EU.prefab
-  artifactKey: Guid(5bb1f14131476c74a95504263bf0558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#3DModels/Cars/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Static_EU.prefab using Guid(5bb1f14131476c74a95504263bf0558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10a2721180328508a2cbed1f915f2ec') in 0.071299 seconds 
-  Import took 0.078399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.527373 seconds.
-  path: Assets/#Audio/Sounds
-  artifactKey: Guid(396023bdcf93510459336b760672ebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Audio/Sounds using Guid(396023bdcf93510459336b760672ebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19aa5d693324eea42744e02b0d949987') in 0.007082 seconds 
-  Import took 0.010002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055098 seconds.
-  path: Assets/#Audio/Sounds/glassbreak.wav
-  artifactKey: Guid(dc452eea59c09f143a12d7bc36719458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Audio/Sounds/glassbreak.wav using Guid(dc452eea59c09f143a12d7bc36719458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540989343cbe905f58fb3c72e5c2fe7b') in 0.098021 seconds 
-  Import took 0.101082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.936840 seconds.
-  path: Assets/#Materials/Glass.mat
-  artifactKey: Guid(e00408defd090864ca1b57389d597381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Materials/Glass.mat using Guid(e00408defd090864ca1b57389d597381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1e5f2156246d368ebdfc3594fb6914') in 0.014851 seconds 
-  Import took 0.017668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/#Materials/Skybox_Mat.mat
-  artifactKey: Guid(e79deb2e6d4a5b142a0efa22234d22f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Materials/Skybox_Mat.mat using Guid(e79deb2e6d4a5b142a0efa22234d22f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd24c8996b56c4166a7da6e88b4f477') in 0.084607 seconds 
-  Import took 0.087652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/#Materials/tier_1t.mat
-  artifactKey: Guid(578a9257152d29c4e887e932cf23a369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Materials/tier_1t.mat using Guid(578a9257152d29c4e887e932cf23a369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa58db6c2d63f1a46c7d06b9d5dfbf0') in 0.014742 seconds 
-  Import took 0.017657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/#Materials/Red Light.mat
-  artifactKey: Guid(1cb17ebb885c77e44a5408a397c55c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#Materials/Red Light.mat using Guid(1cb17ebb885c77e44a5408a397c55c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5aa2625cf27746dbb0a91b20c741ee') in 0.022388 seconds 
-  Import took 0.025311 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004263 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.939 seconds
-Domain Reload Profiling:
-	ReloadAssembly (940ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (775ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (246ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (185ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1556 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.3 MB.
-System memory in use after: 107.4 MB.
+System memory in use before: 86.9 MB.
+System memory in use after: 87.0 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2089.
-Total: 3.284000 ms (FindLiveObjects: 0.250500 ms CreateObjectMapping: 0.068900 ms MarkObjects: 2.908400 ms  DeleteObjects: 0.054700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004341 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.851 seconds
-Domain Reload Profiling:
-	ReloadAssembly (852ms)
-		BeginReloadAssembly (91ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (705ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (261ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (239ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1556 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.3 MB.
-System memory in use after: 107.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2091.
-Total: 3.236700 ms (FindLiveObjects: 0.257000 ms CreateObjectMapping: 0.068600 ms MarkObjects: 2.888500 ms  DeleteObjects: 0.020600 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2061.
+Total: 3.057800 ms (FindLiveObjects: 0.246200 ms CreateObjectMapping: 0.066400 ms MarkObjects: 2.724200 ms  DeleteObjects: 0.019400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
