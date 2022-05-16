@@ -11,15 +11,15 @@ Aims & Issues
 
 5) Car's Acceleration Mechanic should be added. (DONE) ✓
 
-6) A Track Should be Designed.
+6) A Track Should be Designed. (DONE) ✓
 
 7) Powerup Mechanic Should be added 
 Powerup Mechanic: If car crosses over a platform and if there is a powerup on this platform, car should gain this powerup 
-Powerups Planning to add: Minigun, Shield
+Powerups Planning to add: Minigun, Shield. (Minigun Added but needs to be optimized)
 
 8) Models should be improved.
 
-9) 3 AI controllled car + 1 player's car will be added
+9) 3 AI controllled cars will be added
 
 10) Race finishing position & time should be saved
 
