@@ -24,11 +24,13 @@ public class GatlingGun : MonoBehaviour
 
     // Used to start and stop the turret firing
     bool canFire = false;
-
+     
+    public int minigunActive= -1;
     
     void Start()
     {
-        // Set the firing range distance
+        // Set the firing range distanc
+        
         this.GetComponent<SphereCollider>().radius = firingRange;
     }
 
@@ -36,6 +38,7 @@ public class GatlingGun : MonoBehaviour
     {
         AimAndFire();
     }
+
 
     void OnDrawGizmosSelected()
     {
@@ -47,10 +50,13 @@ public class GatlingGun : MonoBehaviour
     // Detect an Enemy, aim and fire
     void OnTriggerEnter(Collider other)
     {
+        if(other.CompareTag("Minigun")){
+        
+      } 
         if (other.gameObject.tag == "Enemy")
         {
             go_target = other.transform;
-            canFire = true;
+            canFire = true; //Object Disable buraya yazılacak
         }
 
     }

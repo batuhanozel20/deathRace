@@ -1,4 +1,4 @@
-
+using System.Collections;
 using UnityEngine;
 
 public class CarDamage : MonoBehaviour 
@@ -17,6 +17,11 @@ public class CarDamage : MonoBehaviour
 	private MeshFilter[] meshfilters;
 	private float sqrDemRange;
 
+    public int repairNum=0;
+    
+    
+
+
     //Save Vertex Data
     private struct permaVertsColl
     {
@@ -28,6 +33,8 @@ public class CarDamage : MonoBehaviour
 	public void Start()
 	{   
         
+       
+
         if(MeshList.Length>0)
         	meshfilters = MeshList;
         else
@@ -38,10 +45,15 @@ public class CarDamage : MonoBehaviour
         LoadOriginalMeshData();
 
     }
-
+ 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R)) Repair();
+      //Debug.Log(repairNum);
+       if (Input.GetKeyDown(KeyCode.R) && repairNum>0) {
+          Repair();
+          repairNum-=1;
+
+        }
     }
 
     void LoadOriginalMeshData()
@@ -53,7 +65,7 @@ public class CarDamage : MonoBehaviour
         }
     }
     
-    void Repair()
+    public void Repair()
     {
         for (int i = 0; i < meshfilters.Length; i++)
         {
@@ -63,9 +75,24 @@ public class CarDamage : MonoBehaviour
             CarSmoke.SetActive(false);
         }
     }
-
+    
+public void OnTriggerEnter (Collider other){
+    if(other.CompareTag("Minigun")){
+        
+  
+          
+      } 
+    if(other.CompareTag("Repair")){
+         
+          repairNum+=1;
+ 
+      } 
+}
 	public void OnCollisionEnter( Collision collision ) 
 	{
+        
+        
+       
 		Vector3 colRelVel = collision.relativeVelocity;
 		colRelVel.y *= YforceDamp;
 		
