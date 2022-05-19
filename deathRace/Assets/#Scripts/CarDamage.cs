@@ -33,6 +33,8 @@ public class CarDamage : MonoBehaviour
     int i;
 
 
+  
+
 
 	public void Start()
 	{   
@@ -52,6 +54,8 @@ public class CarDamage : MonoBehaviour
  
     private void Update()
     {
+  
+       
       //Debug.Log(repairNum);
        if (Input.GetKeyDown(KeyCode.R) && repairNum>0) {
           Repair();
@@ -85,9 +89,10 @@ public void OnTriggerEnter (Collider other){
     
 
     if(other.GetComponent<Collider>().tag=="Minigun"){
-        
-    gg.MinigunActivate();
-          
+     gg.MinigunActivate();
+  
+    
+    
       } 
     if(other.CompareTag("Repair")){
          

@@ -25,14 +25,15 @@ public class GatlingGun : MonoBehaviour
     // Used to start and stop the turret firing
     public bool canFire = false;
      
+        
    
     
   
     void Start()
     {
-        // Set the firing range distanc
         
-     
+        StartCoroutine(ExecuteAfterTime());
+      
         
         this.GetComponent<SphereCollider>().radius = 0;
         
@@ -41,8 +42,9 @@ public class GatlingGun : MonoBehaviour
     void Update()
     {
          AimAndFire();
-         
-     
+       
+        
+  
       
        
     }
@@ -75,18 +77,38 @@ public class GatlingGun : MonoBehaviour
         }
     }
     // Stop firing
-    void OnTriggerExit(Collider other)
+   public void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Enemy")
         {
             canFire = false;
+            
         }
     }
 
 public void MinigunActivate(){
     
     this.GetComponent<SphereCollider>().radius = firingRange;
+   
 }
+public void MinigunDeActivate(){
+    
+    this.GetComponent<SphereCollider>().radius =0;
+}
+
+public IEnumerator ExecuteAfterTime()
+ {
+ 
+  
+    MinigunActivate();
+     yield return new WaitForSeconds(8.25f);
+
+    MinigunDeActivate();
+
+
+    
+ }
+  
 
     public void AimAndFire()
     {
