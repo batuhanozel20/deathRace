@@ -23,20 +23,28 @@ public class GatlingGun : MonoBehaviour
     public ParticleSystem muzzelFlash;
 
     // Used to start and stop the turret firing
-    bool canFire = false;
+    public bool canFire = false;
      
-    public int minigunActive= -1;
+   
     
+  
     void Start()
     {
         // Set the firing range distanc
         
-        this.GetComponent<SphereCollider>().radius = firingRange;
+     
+        
+        this.GetComponent<SphereCollider>().radius = 0;
+        
     }
 
     void Update()
     {
-        AimAndFire();
+         AimAndFire();
+         
+     
+      
+       
     }
 
 
@@ -48,17 +56,23 @@ public class GatlingGun : MonoBehaviour
     }
 
     // Detect an Enemy, aim and fire
-    void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Minigun")){
+       
         
-      } 
         if (other.gameObject.tag == "Enemy")
         {
+             
+           
             go_target = other.transform;
             canFire = true; //Object Disable buraya yazılacak
-        }
 
+             
+               
+        
+           
+        
+        }
     }
     // Stop firing
     void OnTriggerExit(Collider other)
@@ -69,7 +83,12 @@ public class GatlingGun : MonoBehaviour
         }
     }
 
-    void AimAndFire()
+public void MinigunActivate(){
+    
+    this.GetComponent<SphereCollider>().radius = firingRange;
+}
+
+    public void AimAndFire()
     {
         // Gun barrel rotation
         go_barrel.transform.Rotate(0, 0, currentRotationSpeed * Time.deltaTime);

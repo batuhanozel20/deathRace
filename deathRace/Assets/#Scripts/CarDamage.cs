@@ -19,6 +19,8 @@ public class CarDamage : MonoBehaviour
 
     public int repairNum=0;
     
+
+    public GatlingGun gg ;
     
 
 
@@ -29,6 +31,8 @@ public class CarDamage : MonoBehaviour
     }
     private permaVertsColl[] originalMeshData;
     int i;
+
+
 
 	public void Start()
 	{   
@@ -77,9 +81,12 @@ public class CarDamage : MonoBehaviour
     }
     
 public void OnTriggerEnter (Collider other){
-    if(other.CompareTag("Minigun")){
+
+    
+
+    if(other.GetComponent<Collider>().tag=="Minigun"){
         
-  
+    gg.MinigunActivate();
           
       } 
     if(other.CompareTag("Repair")){

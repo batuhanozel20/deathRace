@@ -1404,6 +1404,7 @@ MonoBehaviour:
   - {fileID: 403756675}
   Crash: {fileID: 526511160}
   repairNum: 0
+  gg: {fileID: 0}
 --- !u!114 &157300333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2825,6 +2826,7 @@ GameObject:
   - component: {fileID: 322613183}
   - component: {fileID: 322613182}
   - component: {fileID: 322613181}
+  - component: {fileID: 322613189}
   m_Layer: 0
   m_Name: SportCar20_Driver_USA (1)
   m_TagString: Enemy
@@ -2871,6 +2873,7 @@ MonoBehaviour:
   - {fileID: 797689334}
   Crash: {fileID: 1985323749}
   repairNum: 0
+  gg: {fileID: 1586152344}
 --- !u!114 &322613183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3055,6 +3058,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &322613189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322613180}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918170c09d88a7f47991f97e2ae42f62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go_baseRotation: {fileID: 0}
+  go_GunBody: {fileID: 0}
+  go_barrel: {fileID: 0}
+  barrelRotationSpeed: 0
+  firingRange: 0
+  muzzelFlash: {fileID: 0}
+  canFire: 0
 --- !u!1 &331144171
 GameObject:
   m_ObjectHideFlags: 0
@@ -5282,7 +5304,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1979706888108350, guid: f72d03e48b3dbfd4ca0f692e695377c3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1979706888108350, guid: f72d03e48b3dbfd4ca0f692e695377c3, type: 3}
       propertyPath: m_TagString
@@ -5345,8 +5367,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114048599433676842, guid: f72d03e48b3dbfd4ca0f692e695377c3, type: 3}
-      propertyPath: firingRange
+      propertyPath: canFire
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114048599433676842, guid: f72d03e48b3dbfd4ca0f692e695377c3, type: 3}
+      propertyPath: firingRange
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 135749318806271514, guid: f72d03e48b3dbfd4ca0f692e695377c3, type: 3}
       propertyPath: m_Radius
@@ -7342,7 +7368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1979706888108350, guid: f72d03e48b3dbfd4ca0f692e695377c3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4514986444668122, guid: f72d03e48b3dbfd4ca0f692e695377c3, type: 3}
       propertyPath: m_RootOrder
@@ -7402,7 +7428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114048599433676842, guid: f72d03e48b3dbfd4ca0f692e695377c3, type: 3}
       propertyPath: firingRange
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72d03e48b3dbfd4ca0f692e695377c3, type: 3}
@@ -21580,6 +21606,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1576833068}
   m_Mesh: {fileID: 4300012, guid: f119de429d72e0b4daed64783cf54fad, type: 3}
+--- !u!114 &1586152344 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114048599433676842, guid: f72d03e48b3dbfd4ca0f692e695377c3, type: 3}
+  m_PrefabInstance: {fileID: 688255665}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918170c09d88a7f47991f97e2ae42f62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1591122296
 GameObject:
   m_ObjectHideFlags: 0
