@@ -59,7 +59,7 @@ public class CarDamage : MonoBehaviour
       //Debug.Log(repairNum);
        if (Input.GetKeyDown(KeyCode.R) && repairNum>0) {
           Repair();
-          repairNum-=1;
+          repairNum=0;
 
         }
     }

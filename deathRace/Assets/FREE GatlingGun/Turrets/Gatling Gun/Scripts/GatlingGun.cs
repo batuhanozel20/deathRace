@@ -24,7 +24,15 @@ public class GatlingGun : MonoBehaviour
 
     // Used to start and stop the turret firing
     public bool canFire = false;
-     
+
+    public float seconds;
+
+    
+
+    
+
+
+  
         
    
     
@@ -32,7 +40,7 @@ public class GatlingGun : MonoBehaviour
     void Start()
     {
         
-        StartCoroutine(ExecuteAfterTime());
+       // StartCoroutine(ExecuteAfterTime());
       
         
         this.GetComponent<SphereCollider>().radius = 0;
@@ -42,6 +50,17 @@ public class GatlingGun : MonoBehaviour
     void Update()
     {
          AimAndFire();
+         seconds= seconds-1.0f * Time.deltaTime;
+          if (seconds<=0.0f){
+         MinigunDeActivate();
+     }
+       //Debug.Log(seconds);
+
+        
+
+
+         
+        
        
         
   
@@ -87,30 +106,38 @@ public class GatlingGun : MonoBehaviour
     }
 
 public void MinigunActivate(){
+    seconds = 5.0f;
+    this.GetComponent<SphereCollider>().radius = firingRange; 
+    }
+     
     
-    this.GetComponent<SphereCollider>().radius = firingRange;
-   
-}
+
+    
+     
+    
+
+
+
 public void MinigunDeActivate(){
     
     this.GetComponent<SphereCollider>().radius =0;
 }
 
-public IEnumerator ExecuteAfterTime()
+ /*           IEnumerator ExecuteAfterTime()
  {
- 
-  
-    MinigunActivate();
-     yield return new WaitForSeconds(8.25f);
+     MinigunActivate();
 
-    MinigunDeActivate();
+     yield return new WaitForSeconds(5);
+
+     MinigunDeActivate();
 
 
     
- }
+ }*/
+   
   
 
-    public void AimAndFire()
+     void AimAndFire()
     {
         // Gun barrel rotation
         go_barrel.transform.Rotate(0, 0, currentRotationSpeed * Time.deltaTime);
