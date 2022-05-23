@@ -15,16 +15,16 @@ Aims & Issues
 
 7) Powerup Mechanic Should be added 
 Powerup Mechanic: If car crosses over a platform and if there is a powerup on this platform, car should gain this powerup 
-Powerups Planning to add: Minigun, Shield. (Minigun Added but needs to be optimized)
+Powerups Planning to add: Minigun, Shield. (Shield done. Minigun Added but needs to be optimized) 
 
 8) Models should be improved.
 
-9) 3 AI controllled cars will be added
+9) 3 AI controllled cars will be added (DONE) ✓
 
 10) Race finishing position & time should be saved
 
 11) If first car finish race, a cooldown will start. After cooldown finished, racer who didn't finish race, will die.
 
-12) AI's skills should be improved so much (Taking powerup, Aiming to other cars etc)
+12) AI's skills should be improved so much (Taking powerup, Aiming to other cars etc) (DONE) ✓
 
 13)
