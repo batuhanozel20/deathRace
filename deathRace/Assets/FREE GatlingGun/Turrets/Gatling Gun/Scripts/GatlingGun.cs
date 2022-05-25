@@ -27,6 +27,7 @@ public class GatlingGun : MonoBehaviour
 
     public float seconds;
 
+    public AudioClip fireClip;
     
 
     
@@ -135,7 +136,21 @@ public void MinigunDeActivate(){
     
  }*/
    
-  
+  /*void playMusic()
+ {
+     audio.clip = fireClip;
+     audio.Play();
+     audio.volume = 1.0f; // optional
+   
+ }
+
+  void stopMusic()
+ {
+     audio.clip = fireClip;
+     audio.Play();
+     audio.volume = 0.0f; // optional
+   
+ }*/
 
      void AimAndFire()
     {
@@ -159,6 +174,7 @@ public void MinigunDeActivate(){
             if (!muzzelFlash.isPlaying)
             {
                 muzzelFlash.Play();
+                //playMusic();
             }
         }
         else
@@ -170,6 +186,7 @@ public void MinigunDeActivate(){
             if (muzzelFlash.isPlaying)
             {
                 muzzelFlash.Stop();
+               // stopMusic();
             }
         }
     }
