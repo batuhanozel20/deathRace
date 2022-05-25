@@ -43,7 +43,7 @@ public class GatlingGun : MonoBehaviour
        // StartCoroutine(ExecuteAfterTime());
       
         
-        this.GetComponent<SphereCollider>().radius = 0;
+        this.GetComponent<SphereCollider>().radius =0;
         
     }
 
