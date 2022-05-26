@@ -1,5 +1,8 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using TMPro;
+using System.Collections.Generic;
 
 public class CarDamage : MonoBehaviour 
 {
@@ -18,10 +21,20 @@ public class CarDamage : MonoBehaviour
 	private float sqrDemRange;
 
     public int repairNum=0;
-    
-
     public GatlingGun gg ;
-    
+
+
+    public static float playerHP=100.0f;
+
+    public static bool isDead;
+
+    public TextMeshProUGUI playerHPText;
+
+    public int crashing=0;
+
+    public float seconds=0.0f;
+
+    public float secondsForTakeDamage = 0.0f;
 
 
     //Save Vertex Data
@@ -34,11 +47,19 @@ public class CarDamage : MonoBehaviour
 
 
   
+public static void TakeDamage(float damageAmount){
+    playerHP-=damageAmount;
+    
+}
 
+public void countToFive(){
+ seconds=5.0f;
+}
 
 	public void Start()
 	{   
-        
+        playerHP=100.0f;
+        isDead=false;
        
 
         if(MeshList.Length>0)
@@ -54,6 +75,28 @@ public class CarDamage : MonoBehaviour
  
     private void Update()
     {
+        //Debug.Log(secondsForTakeDamage);
+        if(playerHP<=0.0f){
+        isDead=true;
+    }
+        //Debug.Log(playerHP);
+        if (50.0f > playerHP)
+        {
+            CarSmoke.SetActive(true);
+        }
+        secondsForTakeDamage = secondsForTakeDamage-1.0f*Time.deltaTime;
+        if (secondsForTakeDamage>=0.0f){
+            TakeDamage(10.0f*Time.deltaTime);
+        }
+        seconds= seconds-1.0f * Time.deltaTime;
+          if(crashing==1 && seconds<=0){
+              TakeDamage(10*Time.deltaTime);
+          }
+
+     playerHPText.text= ""+playerHP;
+        if(isDead){
+    SceneManager.LoadScene("DeadScene");
+}
   
        
       //Debug.Log(repairNum);
@@ -81,27 +124,47 @@ public class CarDamage : MonoBehaviour
             meshfilters[i].mesh.RecalculateNormals();
             meshfilters[i].mesh.RecalculateBounds();
             CarSmoke.SetActive(false);
+            playerHP=100;
         }
     }
     
 public void OnTriggerEnter (Collider other){
+    if(other.GetComponent<Collider>().tag=="Ground" && seconds < -5.0f){
+    playerHP=-1.0f;
+    }
 
-    
+    if(other.GetComponent<Collider>().tag=="Enemy"){
+    crashing=1;
+    }
 
     if(other.GetComponent<Collider>().tag=="Minigun"){
      gg.MinigunActivate();
-  
+    
+    countToFive();
     
     
       } 
     if(other.CompareTag("Repair")){
          
-          repairNum+=1;
+          repairNum=1;
  
       } 
+
 }
-	public void OnCollisionEnter( Collision collision ) 
+public void OnTriggerExit(Collider other){
+
+    if (other.gameObject.tag == "Enemy")
+        {
+            crashing=0;
+            
+        }
+}
+	
+    public void OnCollisionEnter( Collision collision ) 
 	{
+    
+           
+        Crash.Play();
         
         
        
@@ -126,12 +189,7 @@ public void OnTriggerEnter (Collider other){
 
 	public void OnMeshForce( Vector3 originPos, float force )
 	{
-        Crash.Play();
-        hits += 1;
-        if (hits > maxhits)
-        {
-            CarSmoke.SetActive(true);
-        }
+      
         // force should be between 0.0 and 1.0
         force = Mathf.Clamp01(force);
         

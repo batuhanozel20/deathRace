@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-
+using TMPro;
 #pragma warning disable 649
 namespace UnityStandardAssets.Vehicles.Car
 {
@@ -55,6 +55,8 @@ namespace UnityStandardAssets.Vehicles.Car
         public float MaxSpeed{get { return m_Topspeed; }}
         public float Revs { get; private set; }
         public float AccelInput { get; private set; }
+        public TextMeshProUGUI Speedometer;
+        
 
         // Use this for initialization
         private void Start()
@@ -70,6 +72,13 @@ namespace UnityStandardAssets.Vehicles.Car
 
             m_Rigidbody = GetComponent<Rigidbody>();
             m_CurrentTorque = m_FullTorqueOverAllWheels - (m_TractionControl*m_FullTorqueOverAllWheels);
+        }
+        public void Update(){
+               Speedometer.text = "MPH: " +(int)CurrentSpeed;
+            
+
+
+
         }
 
         public AudioSource GearSound;

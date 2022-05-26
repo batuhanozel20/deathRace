@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GatlingGun : MonoBehaviour
 {
@@ -27,7 +28,15 @@ public class GatlingGun : MonoBehaviour
 
     public float seconds;
 
-    public AudioClip fireClip;
+    public GameObject enemyHit;
+
+    public CarDamage CD;
+    public CarDamage1 CD1;
+    public CarDamage2 CD2;
+    public CarDamage3 CD3;
+    
+
+
     
 
     
@@ -45,16 +54,22 @@ public class GatlingGun : MonoBehaviour
       
         
         this.GetComponent<SphereCollider>().radius =0;
+       
         
     }
 
     void Update()
     {
+        //enemyHit.
+        
          AimAndFire();
          seconds= seconds-1.0f * Time.deltaTime;
           if (seconds<=0.0f){
          MinigunDeActivate();
-     }
+ }
+
+
+
        //Debug.Log(seconds);
 
         
@@ -84,7 +99,20 @@ public class GatlingGun : MonoBehaviour
         
         if (other.gameObject.tag == "Enemy")
         {
-             
+            enemyHit = other.gameObject;
+            if(enemyHit.name == "SportCar20_Driver_USA AI (1)"){
+                //Debug.Log("AI 1");
+                CD1.secondsForTakeDamage=5.0f;
+            }
+            else if(enemyHit.name == "SportCar20_Driver_USA AI (2)"){
+                //Debug.Log("AI 2");
+                CD2.secondsForTakeDamage=5.0f;
+            }
+            else if(enemyHit.name == "SportCar20_Driver_USA AI (3)"){
+                //Debug.Log("AI 3");
+                CD3.secondsForTakeDamage=5.0f;
+            }
+            
            
             go_target = other.transform;
             canFire = true; //Object Disable buraya yazılacak
@@ -109,6 +137,8 @@ public class GatlingGun : MonoBehaviour
 public void MinigunActivate(){
     seconds = 5.0f;
     this.GetComponent<SphereCollider>().radius = firingRange; 
+
+
     }
      
     
@@ -136,21 +166,7 @@ public void MinigunDeActivate(){
     
  }*/
    
-  /*void playMusic()
- {
-     audio.clip = fireClip;
-     audio.Play();
-     audio.volume = 1.0f; // optional
-   
- }
-
-  void stopMusic()
- {
-     audio.clip = fireClip;
-     audio.Play();
-     audio.volume = 0.0f; // optional
-   
- }*/
+ 
 
      void AimAndFire()
     {
@@ -174,7 +190,7 @@ public void MinigunDeActivate(){
             if (!muzzelFlash.isPlaying)
             {
                 muzzelFlash.Play();
-                //playMusic();
+               
             }
         }
         else
@@ -186,7 +202,7 @@ public void MinigunDeActivate(){
             if (muzzelFlash.isPlaying)
             {
                 muzzelFlash.Stop();
-               // stopMusic();
+               
             }
         }
     }
