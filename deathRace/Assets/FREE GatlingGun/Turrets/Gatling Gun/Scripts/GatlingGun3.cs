@@ -29,6 +29,7 @@ public class GatlingGun3 : MonoBehaviour
     public float seconds;
 
     public GameObject enemyHit;
+    public int enemyOnSight;
 
     public CarDamage CD;
     public CarDamage1 CD1;
@@ -61,7 +62,19 @@ public class GatlingGun3 : MonoBehaviour
     void Update()
     {
         //enemyHit.
-        
+        if (canFire){
+            if (enemyOnSight==1){
+                CD1.playerHP -= 10.0f*Time.deltaTime;
+            }
+            if (enemyOnSight==2){
+                CD2.playerHP -= 10.0f*Time.deltaTime;
+            }
+            if (enemyOnSight==3){
+                CD.playerHP -= 10.0f*Time.deltaTime;
+            }
+
+
+        }
          AimAndFire();
          seconds= seconds-1.0f * Time.deltaTime;
           if (seconds<=0.0f){
@@ -102,15 +115,18 @@ public class GatlingGun3 : MonoBehaviour
             enemyHit = other.gameObject;
             if(enemyHit.name == "SportCar20_Driver_USA AI (1)"){
                 //Debug.Log("AI 1");
-                CD1.secondsForTakeDamage=5.0f;
+                enemyOnSight = 1;
+                //CD1.secondsForTakeDamage=5.0f;
             }
             else if(enemyHit.name == "SportCar20_Driver_USA AI (2)"){
                 //Debug.Log("AI 2");
-                CD2.secondsForTakeDamage=5.0f;
+                enemyOnSight = 2;
+                //CD2.secondsForTakeDamage=5.0f;
             }
             else if(enemyHit.name == "SportCar20_Driver_USA (1)"){
                 //Debug.Log("AI 3");
-                CD.secondsForTakeDamage=5.0f;
+                enemyOnSight = 3;
+                //CD3.secondsForTakeDamage=5.0f;
             }
             
            

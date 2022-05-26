@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/#Scenes/YouWin.unity
+- path: Assets/#Scenes/Game Scene Easy.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

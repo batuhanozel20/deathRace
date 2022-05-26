@@ -2992,6 +2992,7 @@ MonoBehaviour:
   Crash: {fileID: 526511160}
   repairNum: 0
   gg: {fileID: 1250781146}
+  playerHP: 100
   playerHPText: {fileID: 0}
   crashing: 0
   seconds: 0
@@ -5206,6 +5207,7 @@ MonoBehaviour:
   canFire: 0
   seconds: 0
   enemyHit: {fileID: 0}
+  enemyOnSight: 0
   CD: {fileID: 322613182}
   CD1: {fileID: 157300332}
   CD2: {fileID: 2118375271}
@@ -5344,6 +5346,7 @@ MonoBehaviour:
   canFire: 0
   seconds: 0
   enemyHit: {fileID: 0}
+  enemyOnSight: 0
   CD: {fileID: 322613182}
   CD1: {fileID: 157300332}
   CD2: {fileID: 2118375271}
@@ -6132,6 +6135,7 @@ MonoBehaviour:
   Crash: {fileID: 1985323749}
   repairNum: 0
   gg: {fileID: 1586152344}
+  playerHP: 100
   playerHPText: {fileID: 1638304477}
   crashing: 0
   seconds: 0
@@ -22503,7 +22507,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123020131}
   m_LocalRotation: {x: 0.11303815, y: 0.11303815, z: 0.6980132, w: 0.6980132}
-  m_LocalPosition: {x: -194.9, y: 9.03, z: 129.89}
+  m_LocalPosition: {x: -194.9, y: 9.03, z: 130.61}
   m_LocalScale: {x: 0.1, y: 2, z: 5}
   m_Children:
   - {fileID: 1547560263}
@@ -29488,6 +29492,7 @@ MonoBehaviour:
   canFire: 0
   seconds: 0
   enemyHit: {fileID: 0}
+  enemyOnSight: 0
   CD: {fileID: 322613182}
   CD1: {fileID: 157300332}
   CD2: {fileID: 2118375271}
@@ -29761,7 +29766,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259701617}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -29811,8 +29816,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259701617}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -130, y: 12.7, z: 177.9}
-  m_LocalScale: {x: 2, y: 30, z: 30}
+  m_LocalPosition: {x: -131.79, y: 12.7, z: 177.1}
+  m_LocalScale: {x: 2, y: 5, z: 30}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 30
@@ -30037,7 +30042,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281780222}
   m_LocalRotation: {x: 0.43514097, y: 0.43514097, z: -0.55736196, w: -0.55736196}
-  m_LocalPosition: {x: -258.82, y: 9.14, z: 90.64}
+  m_LocalPosition: {x: -258.69, y: 9.14, z: 90.64}
   m_LocalScale: {x: 0.10000002, y: 5, z: 5}
   m_Children:
   - {fileID: 1819615198}
@@ -37861,6 +37866,7 @@ MonoBehaviour:
   Crash: {fileID: 572634756}
   repairNum: 0
   gg: {fileID: 263886957}
+  playerHP: 100
   playerHPText: {fileID: 0}
   crashing: 0
   seconds: 0
@@ -53668,6 +53674,7 @@ MonoBehaviour:
   Crash: {fileID: 822580936}
   repairNum: 0
   gg: {fileID: 256105437}
+  playerHP: 100
   playerHPText: {fileID: 0}
   crashing: 0
   seconds: 0

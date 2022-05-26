@@ -25,7 +25,7 @@ public class CarDamage1 : MonoBehaviour
     public GatlingGun1 gg ;
 
 
-    public static float playerHP=100.0f;
+    public float playerHP=100.0f;
 
     public static bool isDead;
 
@@ -48,7 +48,7 @@ public class CarDamage1 : MonoBehaviour
 
 
   
-public static void TakeDamage(float damageAmount){
+public void TakeDamage(float damageAmount){
     playerHP-=damageAmount;
     
 }
