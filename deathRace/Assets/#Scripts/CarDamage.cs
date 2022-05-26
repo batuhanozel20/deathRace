@@ -9,6 +9,7 @@ public class CarDamage : MonoBehaviour
     public float hits;
     public float maxhits;
     public GameObject CarSmoke;
+    public GameObject CarFire;
 	public float maxMoveDelta = 1.0f; // maximum distance one vertice moves per explosion (in meters)
 	public float maxCollisionStrength = 50.0f;
 	public float YforceDamp = 0.1f; // 0.0 - 1.0
@@ -78,6 +79,7 @@ public void countToFive(){
         //Debug.Log(secondsForTakeDamage);
         if(playerHP<=0.0f){
         isDead=true;
+        CarFire.SetActive(true);
     }
         //Debug.Log(playerHP);
         if (50.0f > playerHP)
@@ -129,6 +131,9 @@ public void countToFive(){
     }
     
 public void OnTriggerEnter (Collider other){
+    if(other.GetComponent<Collider>().tag=="Finish"){
+    SceneManager.LoadScene("YouWin");
+    }
     if(other.GetComponent<Collider>().tag=="Ground" && seconds < -5.0f){
     playerHP=-1.0f;
     }
