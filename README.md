@@ -7,7 +7,7 @@ Aims & Issues
 
 3) If player stop pushing gas, car should not stop immediately.  (DONE) ✓
 
-4) Driving Mechanic should be improved. (Partially Done)
+4) Driving Mechanic should be improved. (DONE) ✓
 
 5) Car's Acceleration Mechanic should be added. (DONE) ✓
 
@@ -15,16 +15,12 @@ Aims & Issues
 
 7) Powerup Mechanic Should be added 
 Powerup Mechanic: If car crosses over a platform and if there is a powerup on this platform, car should gain this powerup 
-Powerups Planning to add: Minigun, Shield. (Shield done. Minigun Added but needs to be optimized) 
+Powerups Planning to add: Minigun, Shield. (DONE) ✓
 
-8) Models should be improved.
+8) Models should be improved. (DONE) ✓
 
 9) 3 AI controllled cars will be added (DONE) ✓
 
-10) Race finishing position & time should be saved
+10) AI's skills should be improved so much (Taking powerup, Aiming to other cars etc) (DONE) ✓
 
-11) If first car finish race, a cooldown will start. After cooldown finished, racer who didn't finish race, will die.
 
-12) AI's skills should be improved so much (Taking powerup, Aiming to other cars etc) (DONE) ✓
-
-13)
